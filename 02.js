@@ -7,13 +7,10 @@
 let [value, value2] = [1, "new"];
 console.log("1", value);
 console.log("2", value2);
-let arr = ["value1", "value2", "value3"];
-let [a, b, c, d] = arr;
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+let arr = ["value1", "value2", "value3"];
+let [a, b, c] = arr;
+console.log(a, b, c);
 
 // 2. 객체인 경우
 let {name, age} = {
